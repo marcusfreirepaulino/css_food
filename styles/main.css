@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    padding-top: 18%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* First Section */
+
+h1{
+    font-family: Palatino-Linotype;
+    font-size: 1.063rem;
+    letter-spacing: 0.25em;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.BlockContainer{
+    display: flex;
+    justify-content: center;
+
+    gap: 1.5rem;
+}
+
+
+
+.ImgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    background-color: var(--beage);
+    background-size:cover;
+
+    min-height: 45rem;
+    min-width: 22rem;
+}
+
+.ImgContainer > h2{
+    width: 14.5ch;
+    
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.4em;
+
+}
+
+.IceCream{
+    background-image: url(../assets/imgs/cake-icecream.png);
+
+}
+
+.Cake{
+    background-image: url(../assets/imgs/cake-wedding.png);
+}
+
+
+.WhiteBtn{
+    
+    background-color: #FFFFFF;
+    border: 2px #FFFFFF solid;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+
+    padding: 1em 2.2em;
+
+    transition: 0.4s;
+
+}
+
+.WhiteBtn:hover{
+    border: solid 2px #000000;
+    cursor: pointer;
+}
+
+
+/* Second Section */
+
+#SecondSection{
+    padding-top: 55%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+#ParallaxContainer{
+    display: flex;
+    justify-content: center;
+
+    width: 70.5rem;
+
+    background-image: url(../assets/imgs/grade-parallax.jpg);
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.ImgContainerButton{  
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+
+    min-height: 27.25rem;
+    min-width: 33.8125rem;
+
+    padding: 0 3rem 3rem 0;
+
+    background-image: url(../assets/imgs/lia-photo.png);
+    background-size: cover;
+}
+
+.Donuts{
+    background-image: url(../assets/imgs/sugary-donuts.png);
+    
+}
+
+
+/* Third Section */
+
+#ThirdSection{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+#ThirdSection h2{
+    font-size: 2rem;
+
+    padding: 2em 0;
+
+}
+
+#NewsletterInput{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+#NewsletterInput h3{
+    font-size: 1rem;
+    padding-bottom: 1em;
+}
+
+input{
+    border: solid #FF4040 ;
+    padding: 3px 3px 3px 21px;
+    line-height: 1.4em;
+
+    width: 38.5ch;
+    font-size: 1rem;
+}
+
+#DarkBtn{
+    border: none;
+
+    height: 3em;
+    width: 41ch;
+
+    font-family: inherit;
+    color: #FFFFFF;
+    background-color: #000000;
+
+    cursor: pointer;
+}
+
+
+
+
+
